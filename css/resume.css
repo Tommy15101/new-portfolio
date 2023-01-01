@@ -536,6 +536,12 @@ p {
     width: 125px;
     height: 125px;
   }
+
+  .achivements-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media all and (max-width: 767px) {
